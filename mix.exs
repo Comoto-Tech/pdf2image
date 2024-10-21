@@ -2,13 +2,13 @@ defmodule PDF2Image.MixProject do
   use Mix.Project
 
   @version "0.1.0"
-  @repo_url "https://github.com/ifoo/pdf2image"
+  @repo_url "https://github.com/Comoto-Tech/pdf2image"
 
   def project do
     [
       app: :pdf2image,
       version: @version,
-      elixir: "~> 1.17",
+      elixir: "~> 1.15",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: "Convert PDF files to images using Ghostscript",
