@@ -3,6 +3,8 @@
 [![hex.pm badge](https://img.shields.io/badge/Package%20on%20hex.pm-informational)](https://hex.pm/packages/pdf2image)
 [![Documentation badge](https://img.shields.io/badge/Documentation-ff69b4)][docs]
 
+**This fork has been created to make it possible to use this library in apps with older versions of Elixir.**
+
 [Online Documentation][docs].
 
 A tiny library to convert PDF files into images. The output is an [Image](https://hex.pm/packages/image) object. This library works by calling out to `ghostscript`.
